@@ -1,5 +1,4 @@
-'''
-Determining Net Pay
+''' Determining Net Pay
 CIS 210 Project 2-1
 
 Author: Tyler Taormina
@@ -27,7 +26,7 @@ def netpay(hours):
     38.25
     
     '''
-    gross_pay = hours * 11.25
+    gross_pay = hours * 12.00 
     
     def tax(gross_pay):
         '''(float) -> float
@@ -55,12 +54,6 @@ def netpay(hours):
 
 
     
-
-
-
-
-
-
 def main():
     ''' Net pay program driver.'''
     print ('For 1 hours work, netpay is: ', netpay(1))
