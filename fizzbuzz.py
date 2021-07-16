@@ -9,7 +9,9 @@ Credits: N/A
 '''
 
 def fb(n):
-    ''' '''
+    '''fizz buzz function that looks for numbers 
+    divisible by 3, 5, or 3 and 5
+    '''
     
     for i in range(1,n+1):
         if i % 3 == 0 and i % 5 == 0:
@@ -33,4 +35,3 @@ def fb(n):
             
     
         return None 
-
